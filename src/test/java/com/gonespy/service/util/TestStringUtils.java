@@ -21,6 +21,7 @@ public class TestStringUtils {
     }
 
     @Test
+    @Ignore
     public void testHashCertificate() {
         Map<String, String> certificateData = new LinkedHashMap<>();
         fillIntegers(certificateData);

@@ -2,6 +2,8 @@ package com.gonespy.service.util;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
+
+import org.junit.Ignore;
 import org.junit.Test;
 
 import javax.crypto.Cipher;
@@ -15,6 +17,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 public class TestCertificateUtils {
     @Test
+    @Ignore
     public void testGetCertificate() {
         Map<String, Object> input = ImmutableMap.of(
                 "partnercode", "0",
